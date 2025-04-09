@@ -1,0 +1,85 @@
+@keyframes full{
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
+   
+}
+.introduction-section{
+    background-image: url('../../../public/image/banner-background-one.jpeg');
+    background-size: cover;
+    background-position: center;
+    .container{
+        .row{
+            .box{
+                width: 50%;
+                .content{
+                    padding: 100px 15px;
+                    span{
+                        color:var(--white-color) ;
+                        font-family: "Ubuntu", sans-serif;
+                        font-weight: 700;
+                        font-style: normal;
+                        padding: 30px 0px;
+                        display: inline-block;
+                    }
+                    h2{
+                        font-family: "Ubuntu", sans-serif;
+                        font-weight: 700;
+                        font-style: normal;
+                        font-size: 60px;
+color: var(--white-color);
+span.animated-text{
+    color: var(--red-txt-color);
+    font-size: 70px;
+    // width: max-content;
+    
+    border-right: 2px solid white;
+    display: inline-block;
+    // width: max-content;
+    letter-spacing: 1.5px;
+    // font-family: "Wallpoet", sans-serif;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: full 3s alternate;
+
+}
+
+                    }
+                    p{
+                        color: var(--gray-color);
+                        font-size: 25px;
+                        letter-spacing: 1.5px;
+                        line-height: 2rem;
+                        padding: 30px 0px;
+                    }
+                    .btn{
+padding: 30px 0px;
+                        a{
+color: var(--white-color);
+padding:15px 30px;
+border: 2px solid var(--red-txt-color);
+background-color: var(--red-bg-color);
+border-radius: 150px;
+                        }
+                    }
+                }
+                // justify-content: center;
+                // .image-box{
+                //     height: 1200px;
+                //     width: 550px;
+                //     img{
+                        
+                        
+                //     }
+                // }
+            }
+        }
+    }
+}
